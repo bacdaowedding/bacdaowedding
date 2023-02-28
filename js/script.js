@@ -223,30 +223,30 @@
         = HIDE PRELOADER
     -------------------------------------------*/
     function preloader() {
-        if($('.preloader').length) {
-            $('.preloader').delay(1).fadeOut(500, function() {
+        // if($('.preloader').length) {
+        //     $('.preloader').delay(1).fadeOut(500, function() {
 
-                //active wow
-                wow.init();
+        //         //active wow
+        //         wow.init();
 
-                if($(".save-the-date").length) {
-                    popupSaveTheDateCircle();
-                }
+        //         if($(".save-the-date").length) {
+        //             popupSaveTheDateCircle();
+        //         }
 
-                //Active heor slider
-                heroSlider();
+        //         //Active heor slider
+        //         heroSlider();
 
-            });
+        //     });
+        // }
+        //active wow
+        wow.init();
+
+        if($(".save-the-date").length) {
+            popupSaveTheDateCircle();
         }
-                // //active wow
-                // wow.init();
 
-                // if($(".save-the-date").length) {
-                //     popupSaveTheDateCircle();
-                // }
-
-                // //Active heor slider
-                // heroSlider();
+        //Active heor slider
+        heroSlider();
     }
 
 
