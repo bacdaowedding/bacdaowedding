@@ -224,7 +224,7 @@
     -------------------------------------------*/
     function preloader() {
         if($('.preloader').length) {
-            $('.preloader').delay(100).fadeOut(500, function() {
+            $('.preloader').delay(10).fadeOut(500, function() {
 
                 //active wow
                 wow.init();
@@ -238,6 +238,15 @@
 
             });
         }
+                // //active wow
+                // wow.init();
+
+                // if($(".save-the-date").length) {
+                //     popupSaveTheDateCircle();
+                // }
+
+                // //Active heor slider
+                // heroSlider();
     }
 
 
